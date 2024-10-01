@@ -10,7 +10,7 @@ let
     name = "proton-mail-export-cli";
     src = fetchurl {
       url = "https://proton.me/download/export-tool/proton-mail-export-cli-linux_x86_64.tar.gz";
-      hash = "sha256-8Lm2Nbw1LgFjEtTyBJRwhYEXPbd9wJHKZE1GISDwlfI=";
+      hash = "sha256-LWQd647TuBeTvkKWr/nYJFRyYj+xUyxEb19XuW4pNko=";
     };
     sourceRoot = ".";
     nativeBuildInputs = [ stdenv.cc.cc ];
