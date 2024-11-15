@@ -10,7 +10,7 @@ let
     name = "proton-mail-export-cli";
     src = fetchurl {
       url = "https://proton.me/download/export-tool/proton-mail-export-cli-linux_x86_64.tar.gz";
-      hash = "sha256-LWQd647TuBeTvkKWr/nYJFRyYj+xUyxEb19XuW4pNko=";
+      hash = "sha256-SXcCk7Noz64XsbRdEVsn0aszR3uK8SgkoBxji7bjqLs=";
     };
     sourceRoot = ".";
     nativeBuildInputs = [ stdenv.cc.cc ];
@@ -28,3 +28,4 @@ buildFHSUserEnv {
   multiPkgs = pkgs: [ ];
   runScript = "${proton-cli}/proton-mail-export-cli";
 }
+
